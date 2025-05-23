@@ -1,7 +1,7 @@
 version: '3'
 services: 
   xrayr: 
-    image: ghcr.io/wyx2685/xrayr:master
+    image: ghcr.io/jackxunkun163/xrayr:master
     volumes:
       - ./config:/etc/XrayR/ # 映射配置文件夹
     restart: always
